@@ -1,0 +1,30 @@
+.search-result {
+  display: flex;
+  max-width: 1135px;
+  width: 100%;
+}
+
+.business-image {
+  width: 210px;
+  height: 210px;
+  border-radius: 4px;
+  margin-right: 1rem;
+  transition: all .2s;
+}
+
+.search-result:hover .business-image{
+  background-size: 160% !important;
+  transition: all .3s;
+}
+
+.business-info {
+  min-width: 400px;
+}
+
+.contact-info p {
+  font-size: 0.85rem;
+}
+
+:global(.tag).business-tag {
+  margin-right: 4px;
+}
