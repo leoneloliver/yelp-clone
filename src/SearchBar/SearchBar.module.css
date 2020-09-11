@@ -10,3 +10,10 @@
 :global(.icon).search-icon {
     color: white;
 }
+
+.dflex{
+    display: flex !important;
+}
+.desktop-flex{
+    display: flex;
+}
